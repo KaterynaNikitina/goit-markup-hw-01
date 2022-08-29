@@ -1,0 +1,47 @@
+/* primary text color #757575 */
+/* title text color #212121 */
+/* accent #2196F3 */
+/* primary white color #FFFFFF */
+/* secondary white color rgb(255, 255, 255, 0.8) */
+/* secondary background-color #F5F4FA*/
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --secondary-white-color: rgb(255, 255, 255, 0.8)
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: var(--accent-color);   
+}
+
+.logo-primary {
+    color:#000000; 
+}
+.logo:hover
+.logo-primary:hover {
+    color: var(--accent-color);   
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
